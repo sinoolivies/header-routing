@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 
 import Header from './components/Header';
+import Footer from "./components/Footer";
 import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Resources from './pages/Resources';
@@ -24,7 +25,7 @@ function App() {
 
       
     </Routes>
-    
+     <Footer />
     </>
   )
 }
