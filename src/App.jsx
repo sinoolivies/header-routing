@@ -9,7 +9,7 @@ import Features from './pages/Features';
 import Pricing from './pages/Pricing';
 import Resources from './pages/Resources';
 import Solutions from './pages/Solutions';
-
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
@@ -25,7 +25,8 @@ function App() {
 
       
     </Routes>
-     <Footer />
+    <LoginForm/>
+     {/* <Footer /> */}
     </>
   )
 }
